@@ -1,0 +1,35 @@
+:root {
+  --red: #dc3545;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: var(--red) !important;
+}
+
+#contact,
+#services {
+  margin-top: 10px !important;
+  margin-bottom: 240px !important;
+}
+.input-group textarea {
+  height: 129px;
+}
+#button-red,
+#button-red1 {
+  background-color: var(--red) !important ;
+  padding: 0.5rem !important;
+  width: 12rem !important;
+
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#button-red1:hover {
+  transform: scale(1.09);
+  opacity: 0.85;
+}
+
+#teachers img {
+  width: 100px;
+  margin: auto;
+}
